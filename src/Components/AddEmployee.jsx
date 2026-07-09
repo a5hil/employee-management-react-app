@@ -41,14 +41,14 @@ const AddEmployee = () => {
                                 <input type="radio" className="form-check-input" name="Gender" id="male" />
                                 <label htmlFor="" className="form-check-label">Female</label>
                                 <input type="radio" className="form-check-input" name="Gender" id="female" />
-                            </div>                          
-                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <label htmlFor="" className="form-label">Address</label>
-                                <textarea className="form-control" rows="3"></textarea>
-                            </div>
+                            </div>  
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                 <label htmlFor="" className="form-label">Salary</label>
                                 <input type="number" className="form-control" />
+                            </div>                        
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                                <label htmlFor="" className="form-label">Address</label>
+                                <textarea className="form-control" rows="3"></textarea>
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                 <button className="btn btn-dark">Submit</button>
